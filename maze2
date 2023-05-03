@@ -1,8 +1,8 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-#define ROWS 7
-#define COLS 9
+#define ROWS 9
+#define COLS 7
 
 
 void printMaze(int maze[ROWS][COLS])
@@ -66,8 +66,8 @@ int main() {
 
     int start_x = 0;
     int start_y = 0;
-    int end_x = 7;
-    int end_y = 9;
+    int end_x = 9;
+    int end_y = 7;
 
     int path[ROWS * COLS][2];
     int path_length = 0;
